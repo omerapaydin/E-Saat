@@ -20,5 +20,11 @@ namespace ESaat.Controllers
             var products = await _productRepository.Products.OrderBy(i => i.Title).Take(4).ToListAsync();
             return View(products);
         }
+
+         public async Task<IActionResult> List()
+        {
+            var products = await _productRepository.Products.ToListAsync();
+            return View(products);
+        }
     }
 }
