@@ -1,14 +1,34 @@
-<section class="hero-section">
-    <div class="hero-visual"></div>
-    
-    <div class="hero-overlay-content">
-        <h2 class="serif-font display-4 reveal-text">WATCHES AND WONDERS 2026</h2>
-        <p class="lead tracking-widest reveal-text-delayed">Cartier saat koleksiyonundaki en son yenilikleri keşfedin.</p>
-        <div class="mt-4">
-            <a href="#" class="btn-luxury">DENEYİMİ KEŞFEDİN</a>
+@model IEnumerable<Product>
+
+    <section class="hero-section">
+        <div class="hero-visual"></div>
+        
+        <div class="hero-overlay-content">
+            <h2 class="serif-font display-4 reveal-text">WATCHES AND WONDERS 2026</h2>
+            <p class="lead tracking-widest reveal-text-delayed">Cartier saat koleksiyonundaki en son yenilikleri keşfedin.</p>
+            <div class="mt-4">
+                <a href="#" class="btn-luxury">DENEYİMİ KEŞFEDİN</a>
+            </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <section class="products py-5 bg-white">
+        <div class="container">
+            <div class="row g-4">
+            @foreach (var product in Model)
+            {    
+                <div class="col-6 col-md-3 text-center product-card">
+                    <div class="product-img-wrapper">
+                        <img src="~/img/@product.Image" class="img-fluid mb-3" alt="@product.Title">
+                    </div>
+                    <h5 class="product-title">@product.Title</h5>
+                    <p class="text-muted extra-small">@product.Description</p>
+                    <p class="price">TRY @product.Price</p>
+                </div>
+            }
+            </div>
+        </div>
+    </section>
 
     <section class="collections py-5">
         <div class="container">
@@ -33,44 +53,4 @@
         </div>
     </section>
 
-  <section class="products py-5 bg-white">
-    <div class="container">
-        <div class="row g-4">
-            <div class="col-6 col-md-3 text-center product-card">
-                <div class="product-img-wrapper">
-                    <img src="https://www.cartier.com/dw/image/v2/BGTW_PRD/on/demandware.static/-/Sites-cartier-master/default/dw61e88e99/images/images-juw-prd/WSSA0018_01.png?sw=750&sh=750&sm=fit&sfrm=png" class="img-fluid mb-3" alt="Santos de Cartier">
-                </div>
-                <h5 class="product-title">SANTOS DE CARTIER SAAT</h5>
-                <p class="text-muted extra-small">Büyük boy model, otomatik mekanizma, ADLC çelik.</p>
-                <p class="price">TRY 489.000</p>
-            </div>
-
-            <div class="col-6 col-md-3 text-center product-card">
-                <div class="product-img-wrapper">
-                    <img src="https://www.cartier.com/dw/image/v2/BGTW_PRD/on/demandware.static/-/Sites-cartier-master/default/dwed3c0f65/images/images-juw-prd/WJPN0015_01.png?sw=750&sh=750&sm=fit&sfrm=png" class="img-fluid mb-3" alt="Panthère de Cartier">
-                </div>
-                <h5 class="product-title">PANTHÈRE DE CARTIER SAAT</h5>
-                <p class="text-muted extra-small">Küçük model, kuvars mekanizma, sarı altın.</p>
-                <p class="price">TRY 492.000</p>
-            </div>
-
-            <div class="col-6 col-md-3 text-center product-card">
-                <div class="product-img-wrapper">
-                    <img src="https://www.cartier.com/dw/image/v2/BGTW_PRD/on/demandware.static/-/Sites-cartier-master/default/dw187310e5/images/images-juw-prd/ST150192_01.png?sw=750&sh=750&sm=fit&sfrm=png" class="img-fluid mb-3" alt="Santos Pen">
-                </div>
-                <h5 class="product-title">SANTOS TÜKENMEZ KALEM</h5>
-                <p class="text-muted extra-small">Küçük model, gravürlü metal, paladyum kaplama.</p>
-                <p class="price">TRY 23.500</p>
-            </div>
-
-            <div class="col-6 col-md-3 text-center product-card">
-                <div class="product-img-wrapper">
-                    <img src="https://www.cartier.com/dw/image/v2/BGTW_PRD/on/demandware.static/-/Sites-cartier-master/default/dw76953043/images/images-juw-prd/ST210006_01.png?sw=750&sh=750&sm=fit&sfrm=png" class="img-fluid mb-3" alt="Vendôme Louis Cartier">
-                </div>
-                <h5 class="product-title">VENDÔME LOUIS CARTIER</h5>
-                <p class="text-muted extra-small">Paladyum ve altın renkli tükenmez kalem.</p>
-                <p class="price">TRY 56.000</p>
-            </div>
-        </div>
-    </div>
-</section>
+  

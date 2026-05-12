@@ -1,3 +1,4 @@
+using ESaat.Data.Abstract;
 using ESaat.Data.Concrete.EfCore;
 using Microsoft.EntityFrameworkCore;
 
@@ -8,6 +9,8 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<IdentityContex>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"))); 
 
+
+builder.Services.AddScoped<IProductRepository, EfProductRepository>();
 
 
 var app = builder.Build();
