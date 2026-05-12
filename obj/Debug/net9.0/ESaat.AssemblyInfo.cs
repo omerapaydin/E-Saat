@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ESaat")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b6a42db23a6c8932f85a4c1529f0d20892dc541e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+76c161a1461566025ca0f587dae8741d24cca764")]
 [assembly: System.Reflection.AssemblyProductAttribute("ESaat")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ESaat")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
