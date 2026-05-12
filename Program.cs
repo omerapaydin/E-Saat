@@ -1,7 +1,12 @@
+using ESaat.Data.Concrete.EfCore;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
 
+builder.Services.AddDbContext<IdentityContex>(options =>
+    options.UseSqlite(builder.Configuration.GetConnectionString("sqlconnection"))); 
 
 
 
