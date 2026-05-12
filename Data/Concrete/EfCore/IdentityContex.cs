@@ -72,11 +72,11 @@ namespace ESaat.Data.Concrete.EfCore
             new Product
             {
                 ProductId = 1,
-                Title = "Apple",
-                Description = "Apple HomePod Hoparlör",
+                Title = "SANTOS DE CARTIER SAAT",
+                Description = "Büyük boy model, otomatik mekanizma, ADLC çelik.",
                 PublishedOn = new DateTime(2024, 1, 1),  
                 Image = "saat1.jpeg",
-                Price = 45000,
+                Price = 489000,
                 IsActive = true,
                 UserId = "1",
                 CategoryId = 1
@@ -84,11 +84,11 @@ namespace ESaat.Data.Concrete.EfCore
             new Product
             {
                 ProductId = 2,
-                Title = "Apple",
-                Description = "Apple Şarj Kablosu Magsafe",
+                Title = "SANTOS DE CARTIER SAAT",
+                Description = "Büyük boy model, otomatik mekanizma, ADLC çelik.",
                 PublishedOn = new DateTime(2024, 2, 1),  
                 Image = "saat2.jpeg",
-                Price = 55000,
+                Price = 489000,
                 IsActive = true,
                 UserId = "1",
                 CategoryId = 1
@@ -96,11 +96,11 @@ namespace ESaat.Data.Concrete.EfCore
             new Product
             {
                 ProductId = 3,
-                Title = "Apple",
-                Description = "Apple AirPods Pro 2",
+                Title = "PANTHÈRE DE CARTIER SAAT",
+                Description = "Küçük model, kuvars mekanizma, sarı altın.",
                 PublishedOn = new DateTime(2024, 3, 1),  
                 Image = "saat3.jpeg",
-                Price = 75000,
+                Price = 492000,
                 IsActive = true,
                 UserId = "2",
                 CategoryId = 1
@@ -108,8 +108,8 @@ namespace ESaat.Data.Concrete.EfCore
             new Product
             {
                 ProductId = 4,
-                Title = "Apple",
-                Description = "Apple AirPods Pro 2",
+                Title = "TANK  ",
+                Description = "Olağanüstü forma ve tasarıma sahip bir saat.",
                 PublishedOn = new DateTime(2024, 3, 1),  
                 Image = "saat4.jpeg",
                 Price = 75000,
@@ -120,8 +120,8 @@ namespace ESaat.Data.Concrete.EfCore
             new Product
             {
                 ProductId = 5,
-                Title = "Apple",
-                Description = "Apple Key Pro 2",
+                Title = "VENDÔME LOUIS CARTIER",
+                Description = "Olağanüstü forma ve tasarıma sahip bir saat.",
                 PublishedOn = new DateTime(2024, 3, 1),  
                 Image = "saat5.jpeg",
                 Price = 75000,
@@ -132,8 +132,8 @@ namespace ESaat.Data.Concrete.EfCore
             new Product
             {
                 ProductId = 6,
-                Title = "Apple",
-                Description = "Apple Mouse Pro ",
+                Title = "TANK",
+                Description = "Olağanüstü forma ve tasarıma sahip bir saat.",
                 PublishedOn = new DateTime(2024, 3, 1),  
                 Image = "saat6.jpeg",
                 Price = 75000,
