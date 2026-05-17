@@ -91,15 +91,15 @@ namespace ESaat.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "ad32bc5f-4209-4936-9b7e-211158fbbc2a",
+                            ConcurrencyStamp = "08c0813a-9281-4210-b686-363480a73880",
                             Email = "info@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ömer Apaydın",
                             ImageFile = "p1.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEJX4Q6km0hGIAkUCDVG7FVwlyz0z8yKK9LaL2MjCS6i1Yj3ZCNAEbhFzW8kIxB9hvw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJGStY8X9+KnMOi9JbiwKMfWMOusdk0Y7xVo8kUxkpJ1FcEvBKsDY52Jnriw63x7dw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "b30b9e68-4e8f-48b5-9232-c640ced4975b",
+                            SecurityStamp = "7260b938-2f0f-4cba-ae80-df619b47e859",
                             TwoFactorEnabled = false,
                             UserName = "omerapaydin"
                         },
@@ -107,15 +107,15 @@ namespace ESaat.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "59f98678-aa5e-4e0e-8d33-4250a43677cb",
+                            ConcurrencyStamp = "60f81b90-34ae-4f65-a8d3-da7c295ecf9c",
                             Email = "info2@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ahmet Tamboğa",
                             ImageFile = "p2.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEJCEVfbU8mGyh2kUXStpRqqClgoKzg09wp5BUgfuGqMVFG29ZD3oNiwBE5M5HpV8PQ==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMPDfBZkKbulTlZicF+o9vfPZza2kVCH/4pU4oWhJ8aUZhMLDstKoVvO2wS4jmqTnQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "15a0aee1-59b4-4f36-8ebe-69f3b2fece38",
+                            SecurityStamp = "bceb2868-ebb2-4c42-bb7a-0e422d88950c",
                             TwoFactorEnabled = false,
                             UserName = "ahmettambuga"
                         });

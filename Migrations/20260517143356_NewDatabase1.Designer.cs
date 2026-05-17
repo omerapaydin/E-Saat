@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace ESaat.Migrations
 {
     [DbContext(typeof(IdentityContex))]
-    [Migration("20260512154823_NewTables")]
-    partial class NewTables
+    [Migration("20260517143356_NewDatabase1")]
+    partial class NewDatabase1
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -94,15 +94,15 @@ namespace ESaat.Migrations
                         {
                             Id = "1",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "05f61b89-81a7-41f7-b2f9-b3a8e256a08a",
+                            ConcurrencyStamp = "08c0813a-9281-4210-b686-363480a73880",
                             Email = "info@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ömer Apaydın",
                             ImageFile = "p1.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEHszL2t6Gnrkjyl2XWR6r/OTSdyNFy1ErRx98l0axr4zbjak4eb/Zxo5mZqcDmX3Jw==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEJGStY8X9+KnMOi9JbiwKMfWMOusdk0Y7xVo8kUxkpJ1FcEvBKsDY52Jnriw63x7dw==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "14e8963b-39e5-4477-a583-0c64a8019f51",
+                            SecurityStamp = "7260b938-2f0f-4cba-ae80-df619b47e859",
                             TwoFactorEnabled = false,
                             UserName = "omerapaydin"
                         },
@@ -110,15 +110,15 @@ namespace ESaat.Migrations
                         {
                             Id = "2",
                             AccessFailedCount = 0,
-                            ConcurrencyStamp = "d2678b15-6701-4f6a-844b-9674b81c4841",
+                            ConcurrencyStamp = "60f81b90-34ae-4f65-a8d3-da7c295ecf9c",
                             Email = "info2@gmail.com",
                             EmailConfirmed = true,
                             FullName = "Ahmet Tamboğa",
                             ImageFile = "p2.jpg",
                             LockoutEnabled = false,
-                            PasswordHash = "AQAAAAIAAYagAAAAEEDDdzx16Jz+DY7EpO7uiP3bAKR+qPKIPpwJ8VRMnFzDp7o9/dwKOFeuR0N05tCZdg==",
+                            PasswordHash = "AQAAAAIAAYagAAAAEMPDfBZkKbulTlZicF+o9vfPZza2kVCH/4pU4oWhJ8aUZhMLDstKoVvO2wS4jmqTnQ==",
                             PhoneNumberConfirmed = false,
-                            SecurityStamp = "54e38503-128c-4b5c-badb-d5b033b47665",
+                            SecurityStamp = "bceb2868-ebb2-4c42-bb7a-0e422d88950c",
                             TwoFactorEnabled = false,
                             UserName = "ahmettambuga"
                         });
@@ -225,72 +225,72 @@ namespace ESaat.Migrations
                         {
                             ProductId = 1,
                             CategoryId = 1,
-                            Description = "Apple HomePod Hoparlör",
-                            Image = "homepod.jpg",
+                            Description = "Büyük boy model, otomatik mekanizma, ADLC çelik.",
+                            Image = "saat1.jpeg",
                             IsActive = true,
-                            Price = 45000m,
+                            Price = 489000m,
                             PublishedOn = new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Apple",
+                            Title = "SANTOS DE CARTIER SAAT",
                             UserId = "1"
                         },
                         new
                         {
                             ProductId = 2,
                             CategoryId = 1,
-                            Description = "Apple Şarj Kablosu Magsafe",
-                            Image = "magsafe.jpg",
+                            Description = "Büyük boy model, otomatik mekanizma, ADLC çelik.",
+                            Image = "saat2.jpeg",
                             IsActive = true,
-                            Price = 55000m,
+                            Price = 489000m,
                             PublishedOn = new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Apple",
+                            Title = "SANTOS DE CARTIER SAAT",
                             UserId = "1"
                         },
                         new
                         {
                             ProductId = 3,
                             CategoryId = 1,
-                            Description = "Apple AirPods Pro 2",
-                            Image = "airpods-pro-2-hero-select-202409.png",
+                            Description = "Küçük model, kuvars mekanizma, sarı altın.",
+                            Image = "saat3.jpeg",
                             IsActive = true,
-                            Price = 75000m,
+                            Price = 492000m,
                             PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Apple",
+                            Title = "PANTHÈRE DE CARTIER SAAT",
                             UserId = "2"
                         },
                         new
                         {
                             ProductId = 4,
                             CategoryId = 2,
-                            Description = "Apple AirPods Pro 2",
-                            Image = "airpods-max.jpeg",
+                            Description = "Olağanüstü forma ve tasarıma sahip bir saat.",
+                            Image = "saat4.jpeg",
                             IsActive = true,
                             Price = 75000m,
                             PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Apple",
+                            Title = "TANK  ",
                             UserId = "2"
                         },
                         new
                         {
                             ProductId = 5,
                             CategoryId = 2,
-                            Description = "Apple Key Pro 2",
-                            Image = "key.jpeg",
+                            Description = "Olağanüstü forma ve tasarıma sahip bir saat.",
+                            Image = "saat5.jpeg",
                             IsActive = true,
                             Price = 75000m,
                             PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Apple",
+                            Title = "VENDÔME LOUIS CARTIER",
                             UserId = "2"
                         },
                         new
                         {
                             ProductId = 6,
                             CategoryId = 3,
-                            Description = "Apple Mouse Pro ",
-                            Image = "mouse.jpeg",
+                            Description = "Olağanüstü forma ve tasarıma sahip bir saat.",
+                            Image = "saat6.jpeg",
                             IsActive = true,
                             Price = 75000m,
                             PublishedOn = new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Title = "Apple",
+                            Title = "TANK",
                             UserId = "2"
                         });
                 });

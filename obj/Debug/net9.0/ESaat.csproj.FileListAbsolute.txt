@@ -146,5 +146,5 @@
 /Users/omerapaydin/Desktop/Back-end/E-Saat/ESaat/ESaat/bin/Debug/net9.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/omerapaydin/Desktop/Back-end/E-Saat/ESaat/ESaat/obj/Debug/net9.0/ESaat.csproj.AssemblyReference.cache
 /Users/omerapaydin/Desktop/Back-end/E-Saat/ESaat/ESaat/obj/Debug/net9.0/ESaat.csproj.Up2Date
-/Users/omerapaydin/Desktop/Back-end/E-Saat/ESaat/ESaat/obj/Debug/net9.0/compressed/1kfrw8mfa7-{0}-tlka1ubz4a-tlka1ubz4a.gz
 /Users/omerapaydin/Desktop/Back-end/E-Saat/ESaat/ESaat/obj/Debug/net9.0/compressed/8qhfafbbvs-{0}-6iwcm81knz-6iwcm81knz.gz
+/Users/omerapaydin/Desktop/Back-end/E-Saat/ESaat/ESaat/obj/Debug/net9.0/compressed/1kfrw8mfa7-{0}-wjbu5p1bwb-wjbu5p1bwb.gz

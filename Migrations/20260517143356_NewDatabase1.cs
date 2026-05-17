@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ESaat.Migrations
 {
     /// <inheritdoc />
-    public partial class NewTables : Migration
+    public partial class NewDatabase1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -235,8 +235,8 @@ namespace ESaat.Migrations
                 columns: new[] { "Id", "AccessFailedCount", "ConcurrencyStamp", "Email", "EmailConfirmed", "FullName", "ImageFile", "LockoutEnabled", "LockoutEnd", "NormalizedEmail", "NormalizedUserName", "PasswordHash", "PhoneNumber", "PhoneNumberConfirmed", "SecurityStamp", "TwoFactorEnabled", "UserName" },
                 values: new object[,]
                 {
-                    { "1", 0, "05f61b89-81a7-41f7-b2f9-b3a8e256a08a", "info@gmail.com", true, "Ömer Apaydın", "p1.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEHszL2t6Gnrkjyl2XWR6r/OTSdyNFy1ErRx98l0axr4zbjak4eb/Zxo5mZqcDmX3Jw==", null, false, "14e8963b-39e5-4477-a583-0c64a8019f51", false, "omerapaydin" },
-                    { "2", 0, "d2678b15-6701-4f6a-844b-9674b81c4841", "info2@gmail.com", true, "Ahmet Tamboğa", "p2.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEEDDdzx16Jz+DY7EpO7uiP3bAKR+qPKIPpwJ8VRMnFzDp7o9/dwKOFeuR0N05tCZdg==", null, false, "54e38503-128c-4b5c-badb-d5b033b47665", false, "ahmettambuga" }
+                    { "1", 0, "08c0813a-9281-4210-b686-363480a73880", "info@gmail.com", true, "Ömer Apaydın", "p1.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEJGStY8X9+KnMOi9JbiwKMfWMOusdk0Y7xVo8kUxkpJ1FcEvBKsDY52Jnriw63x7dw==", null, false, "7260b938-2f0f-4cba-ae80-df619b47e859", false, "omerapaydin" },
+                    { "2", 0, "60f81b90-34ae-4f65-a8d3-da7c295ecf9c", "info2@gmail.com", true, "Ahmet Tamboğa", "p2.jpg", false, null, null, null, "AQAAAAIAAYagAAAAEMPDfBZkKbulTlZicF+o9vfPZza2kVCH/4pU4oWhJ8aUZhMLDstKoVvO2wS4jmqTnQ==", null, false, "bceb2868-ebb2-4c42-bb7a-0e422d88950c", false, "ahmettambuga" }
                 });
 
             migrationBuilder.InsertData(
@@ -254,12 +254,12 @@ namespace ESaat.Migrations
                 columns: new[] { "ProductId", "CategoryId", "Description", "Image", "IsActive", "Price", "PublishedOn", "Title", "UserId" },
                 values: new object[,]
                 {
-                    { 1, 1, "Apple HomePod Hoparlör", "homepod.jpg", true, 45000m, new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
-                    { 2, 1, "Apple Şarj Kablosu Magsafe", "magsafe.jpg", true, 55000m, new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "1" },
-                    { 3, 1, "Apple AirPods Pro 2", "airpods-pro-2-hero-select-202409.png", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" },
-                    { 4, 2, "Apple AirPods Pro 2", "airpods-max.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" },
-                    { 5, 2, "Apple Key Pro 2", "key.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" },
-                    { 6, 3, "Apple Mouse Pro ", "mouse.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "Apple", "2" }
+                    { 1, 1, "Büyük boy model, otomatik mekanizma, ADLC çelik.", "saat1.jpeg", true, 489000m, new DateTime(2024, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "SANTOS DE CARTIER SAAT", "1" },
+                    { 2, 1, "Büyük boy model, otomatik mekanizma, ADLC çelik.", "saat2.jpeg", true, 489000m, new DateTime(2024, 2, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "SANTOS DE CARTIER SAAT", "1" },
+                    { 3, 1, "Küçük model, kuvars mekanizma, sarı altın.", "saat3.jpeg", true, 492000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "PANTHÈRE DE CARTIER SAAT", "2" },
+                    { 4, 2, "Olağanüstü forma ve tasarıma sahip bir saat.", "saat4.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "TANK  ", "2" },
+                    { 5, 2, "Olağanüstü forma ve tasarıma sahip bir saat.", "saat5.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "VENDÔME LOUIS CARTIER", "2" },
+                    { 6, 3, "Olağanüstü forma ve tasarıma sahip bir saat.", "saat6.jpeg", true, 75000m, new DateTime(2024, 3, 1, 0, 0, 0, 0, DateTimeKind.Unspecified), "TANK", "2" }
                 });
 
             migrationBuilder.CreateIndex(
