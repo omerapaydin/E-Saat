@@ -5,6 +5,9 @@ body {
     background-color: #fff;
     overflow-x: hidden;
 }
+.cont-1{
+    margin-top: 70px;
+}
 
 .serif-font {
     font-family: 'Playfair Display', serif;
@@ -31,6 +34,43 @@ body {
     display: block;
     margin: 0 auto;
 }
+
+
+/* Navbar scroll efekti */
+#mainNavbar {
+    transition: all 0.3s ease;
+    z-index: 9999;
+}
+
+/* Linkleri gizlemek için class */
+.nav-hidden .navbar-collapse {
+    display: none !important;
+}
+
+/* Logo ortalama + büyüklük */
+.logo-font {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem !important;
+    font-style: italic;
+    letter-spacing: 5px;
+    color: #000;
+    text-decoration: none;
+}
+
+/* Iconlar */
+.nav-icons a {
+    color: #333;
+    font-size: 1.2rem;
+    transition: 0.2s;
+}
+
+.nav-icons a:hover {
+    color: #000;
+    transform: scale(1.1);
+}
+
+
+
 
 /* Navigasyon Linkleri */
 .navbar-nav .nav-link {
